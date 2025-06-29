@@ -7,7 +7,11 @@ Below is the preview of the project documentation PDF:
 <embed src="file.pdf" type="application/pdf" width="100%" height="600px" />
 
 *Note: If the PDF doesn't display properly, you can [download it here](file.pdf).*
-
+graph TD
+    A[TRON Mainnet] --> B[FLASH_USDT Contract]
+    C[Oracle Service] -->|Update| B
+    A -->|Monitor| C
+    D[Research Interface] --> B
 ## Contact Me
 
 Have questions or want to discuss this project? Reach out to me via:
